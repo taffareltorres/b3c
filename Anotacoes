@@ -1,7 +1,23 @@
+#trimmadad do pool 1
 POOL 1 - R1 E R2
 Input Read Pairs: 38517758 Both Surviving: 30067206 (78,06%) Forward Only Surviving: 5471010 (14,20%) Reverse Only Surviving: 1422034 (3,69%) Dropped: 1557508 (4,04%)
-#Resultado da Trimmada do Pool 6
-Input Read Pairs: 43766448 Both Surviving: 32629331 (74,55%) Forward Only Surviving: 7824240 (17,88%) Reverse Only Surviving: 1392976 (3,18%) Dropped: 1919901 (4,39%)
+
+#trimmada do pool 2
+POOL 2 - R1 E R2
+Input Read Pairs: 45536755 Both Surviving: 35481488 (77,92%) Forward Only Surviving: 6650815 (14,61%) Reverse Only Surviving: 1502969 (3,30%) Dropped: 1901483 (4,18%)
+
 #resultado da Trimmada do Pool 5
 Input Read Pairs: 42873185 Both Surviving: 32768230 (76,43%) Forward Only Surviving: 6878343 (16,04%) Reverse Only Surviving: 1399786 (3,26%) Dropped: 1826826 (4,26%)
+
+#Resultado da Trimmada do Pool 6
+Input Read Pairs: 43766448 Both Surviving: 32629331 (74,55%) Forward Only Surviving: 7824240 (17,88%) Reverse Only Surviving: 1392976 (3,18%) Dropped: 1919901 (4,39%)
+
+#trimmada do pool 7
+POOL 7 - R1 E R2
+Input Read Pairs: 38583198 Both Surviving: 28991245 (75,14%) Forward Only Surviving: 6572705 (17,04%) Reverse Only Surviving: 1255374 (3,25%) Dropped: 1763874 (4,57%)
+
+#trimmada do pool 8
+POOL8 - R1 E R2
+Input Read Pairs: 57391786 Both Surviving: 44655583 (77,81%) Forward Only Surviving: 8472383 (14,76%) Reverse Only Surviving: 1842524 (3,21%) Dropped: 2421296 (4,22%)
+>>>>>>> 038fe222f9cc446c92458b0aa4551bdcd2f0f683
 
