@@ -1,2 +1,7 @@
 POOL 1 - R1 E R2
 Input Read Pairs: 38517758 Both Surviving: 30067206 (78,06%) Forward Only Surviving: 5471010 (14,20%) Reverse Only Surviving: 1422034 (3,69%) Dropped: 1557508 (4,04%)
+#Resultado da Trimmada do Pool 6
+Input Read Pairs: 43766448 Both Surviving: 32629331 (74,55%) Forward Only Surviving: 7824240 (17,88%) Reverse Only Surviving: 1392976 (3,18%) Dropped: 1919901 (4,39%)
+#resultado da Trimmada do Pool 5
+Input Read Pairs: 42873185 Both Surviving: 32768230 (76,43%) Forward Only Surviving: 6878343 (16,04%) Reverse Only Surviving: 1399786 (3,26%) Dropped: 1826826 (4,26%)
+
