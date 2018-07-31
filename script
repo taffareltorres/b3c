@@ -16,7 +16,7 @@ fastqc -o . arquivo-trimmado1.fastq.gz arquivo-trimmado2.fastq.gz
 
 
 #comando sortmerna pra retirar rna ribossomal
-./sortmerna --ref rRNA_databases/silva-bac-16s-id90.fasta,index/silva-bac-16s-db:rRNA_databases/silva-bac-23s-id98.fasta,index/silva-bac-23s-db:rRNA_databases/silva-arc-16s-id95.fasta,index/silva-arc-16s-db:rRNA_databases/silva-arc-23s-id98.fasta,index/silva-arc-23s-db:rRNA_databases/silva-euk-18s-id95.fasta,index/silva-euk-18s-db:rRNA_databases/silva-euk-28s-id98.fasta,index/silva-euk-28s-db:rRNA_databases/rfam-5s-database-id98.fasta,index/rfam-5s-db:rRNA_databases/rfam-5.8s-database-id98.fasta,index/rfam-5.8s-db --reads /home/b3c/bioinfo/Pool1/POOL1_R1-R2.fastq --num_alignments 1 --fastx --aligned /home/b3c/bioinfo/Pool1/Pool1_rRNA --other /home/b3c/bioinfo/Pool1/Pool1_non_rRNA --log --paired_in -v
+./sortmerna --ref rRNA_databases/silva-bac-16s-id90.fasta,index/silva-bac-16s-db:rRNA_databases/silva-bac-23s-id98.fasta,index/silva-bac-23s-db:rRNA_databases/silva-arc-16s-id95.fasta,index/silva-arc-16s-db:rRNA_databases/silva-arc-23s-id98.fasta,index/silva-arc-23s-db:rRNA_databases/silva-euk-18s-id95.fasta,index/silva-euk-18s-db:rRNA_databases/silva-euk-28s-id98.fasta,index/silva-euk-28s:rRNA_databases/rfam-5s-database-id98.fasta,index/rfam-5s-db:rRNA_databases/rfam-5.8s-database-id98.fasta,index/rfam-5.8s-db --reads /home/b3c/bioinfo/Pool1/POOL1_R1-R2.fastq --num_alignments 1 --fastx --aligned /home/b3c/bioinfo/Pool1/Pool1_rRNA --other /home/b3c/bioinfo/Pool1/Pool1_non_rRNA --log --paired_in -v
 
 
 
