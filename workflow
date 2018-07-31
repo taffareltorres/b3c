@@ -7,6 +7,7 @@ fastqc -o /caminho/dapasta -t 4 --noextract arquivo1.fastq.gz arquivo2.fastq.gz
 #trimmar adaptadores e qualidade abaixo de 20
 #adicionado alias trimmomatic='java -jar /usr/share/java/trimmomatic-0.36.jar' no bashrc
 
-trimmomatic PE -phred33 /home/bioinfo/Desktop/pool\ 1/Pool_1_S1_ALL_R1.fastq /home/bioinfo/Desktop/pool\ 1/Pool_1_S1_ALL_R2.fastq paired1.fq.gz unpaired1.fq.gz paired2.fq.gz unpaired2.fq.gz ILLUMINACLIP:TruSeq2-PE.fa:2:30:10:1:true TRAILING:20 MINLEN:20
+trimmomatic PE -phred33 Pool_6_ALL_R1.fastq.gz Pool_6_ALL_R2.fastq.gz P6-R1.fq.gz P6-R2.fq.gz unpaired1.fq.gz unpaired2.fq.gz ILLUMINACLIP:TruSeq3-PE-2.fa:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:2:20 MINLEN:21
+
 
 
