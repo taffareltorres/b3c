@@ -1,6 +1,6 @@
 #juntar todos R1 e R2
-cat /media/b3c/TaffaBackup/Pool3/Pool_3_S2_L00*_R1_001.fastq.gz > /media/b3c/TaffaBackup/Pool3/Pool_3_R1.fastq.gz
-cat /media/b3c/TaffaBackup/Pool3/Pool_3_S2_L00*_R2_001.fastq.gz > /media/b3c/TaffaBackup/Pool3/Pool_3_R2.fastq.gz
+cat /media/b3c/TaffaBackup/Pool3/Pool_3_S3_L00*_R1_001.fastq.gz > /media/b3c/TaffaBackup/Pool3/Pool_3_R1.fastq.gz
+cat /media/b3c/TaffaBackup/Pool3/Pool_3_S3_L00*_R2_001.fastq.gz > /media/b3c/TaffaBackup/Pool3/Pool_3_R2.fastq.gz
 
 fastqc /media/b3c/TaffaBackup/Pool3/Pool_3_R1.fastq.gz /media/b3c/TaffaBackup/Pool3/Pool_3_R2.fastq.gz
 
@@ -13,7 +13,7 @@ gunzip /media/b3c/TaffaBackup/Pool3/Pool_3_R2.fastq.gz
 
 #ir para a pasta que contem os scrips e pastas de bancos de dados indexados
 cd /home/b3c/Downloads/sortmerna-2.1b/
-./sortmerna --ref rRNA_databases/silva-bac-16s-id90.fasta,index/silva-bac-16s-db:rRNA_databases/silva-bac-23s-id98.fasta,index/silva-bac-23s-db:rRNA_databases/silva-arc-16s-id95.fasta,index/silva-arc-16s-db:rRNA_databases/silva-arc-23s-id98.fasta,index/silva-arc-23s-db:rRNA_databases/silva-euk-18s-id95.fasta,index/silva-euk-18s-db:rRNA_databases/silva-euk-28s-id98.fasta,index/silva-euk-28s-db:rRNA_databases/rfam-5s-database-id98.fasta,index/rfam-5s-db:rRNA_databases/rfam-5.8s-database-id98.fasta,index/rfam-5.8s-db --reads /media/b3c/TaffaBackup/Pool3/Pool_3_R1R2.fastq --num_alignments 1 --fastx --aligned /media/b3c/TaffaBackup/Pool3/Pool_3_rRNA.fastq --other /media/b3c/TaffaBackup/Pool3/Pool_3_nonrRNA.fastq --log --paired_in -v
+./sortmerna --ref rRNA_databases/silva-bac-16s-id90.fasta,index/silva-bac-16s-db:rRNA_databases/silva-bac-23s-id98.fasta,index/silva-bac-23s-db:rRNA_databases/silva-arc-16s-id95.fasta,index/silva-arc-16s-db:rRNA_databases/silva-arc-23s-id98.fasta,index/silva-arc-23s-db:rRNA_databases/silva-euk-18s-id95.fasta,index/silva-euk-18s-db:rRNA_databases/silva-euk-28s-id98.fasta,index/silva-euk-28s-db:rRNA_databases/rfam-5s-database-id98.fasta,index/rfam-5s-db:rRNA_databases/rfam-5.8s-database-id98.fasta,index/rfam-5.8s-db --reads /media/b3c/TaffaBackup/Pool3/Pool_3_R1R2.fastq --num_alignments 1 --fastx --aligned /media/b3c/TaffaBackup/Pool3/Pool_3_rRNA --other /media/b3c/TaffaBackup/Pool3/Pool_3_nonrRNA --log --paired_in -v
 
 #separar o arquivo de saida do sortmerna
 /home/b3c/Downloads/sortmerna-2.1b/scripts/unmerge-paired-reads.sh /media/b3c/TaffaBackup/Pool3/Pool_3_nonrRNA.fastq /media/b3c/TaffaBackup/Pool3/Pool_3_nonrRNA-R1.fastq /media/b3c/TaffaBackup/Pool3/Pool_3_nonrRNA-R2.fastq
